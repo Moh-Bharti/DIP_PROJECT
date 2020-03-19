@@ -81,7 +81,7 @@ for j in range(0, 2):
     for i in range(0, 5):
         ax[j][i].imshow(df_test.values[start_idx].reshape(28, 28), cmap='gray')
         ax[j][i].set_title("Index:{} \nPrediction:{}".format(start_idx, prediction[start_idx]))
-        start_idx += 1"""
-import struct
+        start_idx += 1
+
 
 
